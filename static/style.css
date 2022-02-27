@@ -2,19 +2,6 @@
     # General
     --------------------------------------------------------------*/
 
-a:hover {
-  color: #3b8af2;
-  text-decoration: none;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #141313;
-  font-family: "Roboto", sans-serif;
-}
 body {
   background-image: linear-gradient(
     0deg,
@@ -24,11 +11,18 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: Comic Sans MS, Comic Sans, cursive, Arial;
+  color: white;
   width: 100%;
   height: 100%;
 }
+a:hover {
+  color: #3b8af2;
+  text-decoration: none;
+}
 a {
-  color: rgb(26, 20, 20);
+  font-family: Comic Sans MS, Comic Sans, cursive, Arial;
+  color: white;
 }
 /*-----------------------------
   Content body
@@ -47,8 +41,9 @@ a {
   Profile section
 --------------------------------*/
 #profile {
-  background-color: white;
-  height: 90vh;
+  background-color: black;
+  height: 100vh;
+  font-size: 2.5vh;
   border-radius: 20px;
   padding-left: 0.5em;
   padding-top: 0.5em;
@@ -64,7 +59,7 @@ a {
   width: 100%;
 }
 #projects {
-  background-color: white;
+  background-color: black;
   border-radius: 20px;
   padding: 5px;
   height: 100vh;
@@ -77,7 +72,7 @@ a {
  Extra section
 --------------------------------*/
 #extra {
-  background-color: white;
+  background-color: black;
   height: 30em;
   width: 50%;
   padding-left: 2em;
@@ -90,7 +85,7 @@ a {
       # Header
       --------------------------------------------------------------*/
 #header {
-  background-color: #f2f2f2;
+  background-color: black;
   width: auto;
   border-radius: 10px;
   margin: 10px;
@@ -105,12 +100,10 @@ a {
   font-size: 32px;
   font-weight: 600;
   letter-spacing: 0.8px;
-  font-family: "Poppins", sans-serif;
-  color: black;
 }
 
 #header .logo a {
-  color: #222222;
+  color: white;
 }
 
 #header .logo a span {
@@ -147,12 +140,12 @@ a {
   margin-right: 5em;
   display: block;
   position: relative;
-  color: #222222;
+  font-family: Comic Sans MS, Comic Sans, cursive, Arial;
+  color: white;
   transition: 0.3s;
   font-size: 15px;
   font-weight: 600;
   padding: 0 3px;
-  font-family: "Open Sans", sans-serif;
 }
 
 .nav-menu > ul > li > a:before {
